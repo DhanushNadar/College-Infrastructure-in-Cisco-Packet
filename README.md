@@ -51,12 +51,11 @@ This is the first command in the CLI of a router, switch, or other networking de
 
 Example:
 
-```
+```bash
 Router(config)# ip dhcp pool College-Pool
 Router(dhcp-config)# network 192.168.1.0 255.255.255.0
 Router(dhcp-config)# default-router 192.168.1.1
 Router(dhcp-config)# dns-server 8.8.8.8
-```
 
 Here,
 
