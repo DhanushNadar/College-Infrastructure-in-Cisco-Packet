@@ -1,5 +1,3 @@
-Certainly! Here's the formatted content for your GitHub README.md:
-
 ```markdown
 # College Infrastructure in Cisco Packet Tracer
 
