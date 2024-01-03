@@ -80,3 +80,29 @@ Here,
 Note:
 When you enter this command, the switch or router will save the current running configuration to the startup configuration file. The phrase "Building configuration..." will be displayed as output to indicate that the configuration is being saved. This ensures that the changes made in the running configuration are preserved across reboots.
 
+```markdown
+## Encapsulation dot1Q and IP Address Configuration
+
+### `encapsulation dot1Q [VLAN_ID]:`
+
+Configures the subinterface to use IEEE 802.1Q encapsulation with the specified VLAN ID.
+
+### `ip address [IP_ADDRESS] [SUBNET_MASK]:`
+
+Assigns an IP address and subnet mask to the subinterface.
+
+**Example:**
+```bash
+Router(config)# interface GigabitEthernet0/0.10
+Router(config-subif)# encapsulation dot1Q 10
+Router(config-subif)# ip address 192.168.1.1 255.255.255.0
+```
+
+In this example:
+
+- `interface GigabitEthernet0/0.10`: Enters subinterface configuration mode for VLAN 10 on GigabitEthernet0/0.
+
+- `encapsulation dot1Q 10`: Configures the subinterface to use IEEE 802.1Q encapsulation with VLAN ID 10.
+
+- `ip address 192.168.1.1 255.255.255.0`: Assigns the IP address 192.168.1.1 with a subnet mask of 255.255.255.0 to the subinterface.
+
