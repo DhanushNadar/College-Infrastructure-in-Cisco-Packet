@@ -74,6 +74,8 @@ Specifies the DNS server(s) for the DHCP clients
 >> do write memory or do wr: 
 Description: Saves the running configuration to the startup configuration file.
 
+
 **NOTE**
 When you enter this command, the switch or router will save the current running configuration to the startup configuration file. The phrase "Building configuration..." will be displayed as output to indicate that the configuration is being saved. This ensures that the changes made in the running configuration are preserved across reboots.
- 
+
+
