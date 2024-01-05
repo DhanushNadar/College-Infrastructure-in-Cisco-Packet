@@ -1,4 +1,3 @@
-```markdown
 # College Infrastructure in Cisco Packet Tracer
 
 ## Overview
